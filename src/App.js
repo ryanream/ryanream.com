@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import PageLeap from './components/pages/PageLeap';
+import Landing from './components/pages/Landing';
+
+import Spacer from './components/layout/Spacer';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Landing />
+      <Spacer color='orange' />
+      <PageLeap image='jump' />
+      <Spacer color='blue' />
+      <PageLeap image='california' />
+      <Spacer color='orange' />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,10 @@
+.testDiv {
+  z-index: 1;
+  text-align: center;
+
+  border: 1px solid red;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  background-color: white;
+}
