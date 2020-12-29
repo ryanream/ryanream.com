@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-
+// still an issuee with eslint
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import PageLeap from './components/pages/PageLeap';
+import Section from './components/pages/Section';
 import Landing from './components/pages/Landing';
 
 import Spacer from './components/layout/Spacer';
@@ -12,9 +12,9 @@ const App = () => {
     <div>
       <Landing />
       <Spacer color='orange' />
-      <PageLeap image='jump' />
+      <Section image='jump' cardNum='0' />
       <Spacer color='blue' />
-      <PageLeap image='california' />
+      <Section image='california' cardNum='2' />
       <Spacer color='orange' />
     </div>
   );
