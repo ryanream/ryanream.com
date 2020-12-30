@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-// still an issuee with eslint
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Section from './components/pages/Section';
-import Landing from './components/pages/Landing';
+import React from 'react';
 
-import Spacer from './components/layout/Spacer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Resume from './components/pages/Resume';
+import Home from './components/pages/Home';
+
 import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <Landing />
-      <Spacer color='orange' />
-      <Section image='jump' cardNum='0' />
-      <Spacer color='blue' />
-      <Section image='california' cardNum='2' />
-      <Spacer color='orange' />
-    </div>
+      <Router>
+         <div>
+          <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/resume' component={Resume}/>
+          </Switch>
+        
+         </div>
+      </Router>
   );
 };
 

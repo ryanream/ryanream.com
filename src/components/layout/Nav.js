@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom'
 import FadeIn from 'react-fade-in';
 
 const Nav = () => {
@@ -21,20 +22,30 @@ const Nav = () => {
     >
       <FadeIn delay='3000' transitionDuration='2000'>
         <div>
+          <Link to='/'>
           <button id='logo'>Ryan Ream</button>
+          </Link>
+          {/* <button>
+
+          <Link to='/' id="logo">Ryan Ream</Link>
+          </button> */}
         </div>
       </FadeIn>
       <div>
         {menu ? (
           <div className='drop-down hamburger'>
             <FadeIn delay='50' transitionDuration='600'>
-              <a
+              {/* <a
                 className='drop-link'
-                href='https://drive.google.com/file/d/1wzQs1F5xGv0G3JEkMaAIFWNHCFPeKm-K/view'
+                href='/resume'
                 target='/'
               >
                 Resume
-              </a>
+              </a> */}
+              <Link 
+                className='drop-link'
+                to="/resume">Resume</Link>
+
               <a
                 className='drop-link'
                 href='https://github.com/ryanream'

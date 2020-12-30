@@ -7,6 +7,32 @@
 /* overflow-x: visible; */
 /* width: 100%; */
 /* } */
+.scroll-lock {
+  /* border: 1px solid pink; */
+  box-shadow: 1px 1px 5px 5px rgba(75, 75, 75);
+  border-radius: 10px;
+
+  height: 100vh;
+  padding: 2% 4%;
+  box-sizing: border-box;
+
+  background-image: url('./assets/img/ollie-beach.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.resume-frame {
+  position: fixed;
+  top: 5%;
+  overflow: hidden;
+
+  height: 90vh;
+  width: 95vw;
+  /* margin-bottom: '5vh'; */
+  /* margin: 10% auto; */
+  min-width: 325px;
+}
 
 .landing {
   /* border: 1px solid pink; */
