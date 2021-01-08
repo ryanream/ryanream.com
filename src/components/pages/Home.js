@@ -1,13 +1,13 @@
 import React from 'react';
-import Landing from './Landing';
+import Headline from '../layout/Headline';
 import Spacer from '../layout/Spacer';
-import Section from './Section';
+import Section from '../layout/Section';
 
 const Home = () => {
     return (
         <div>
             
-          <Landing />
+          <Headline />
           <Spacer color='orange' />
           <Section image='jump' cardNum='0' />
           <Spacer color='blue' />

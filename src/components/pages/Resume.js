@@ -5,7 +5,6 @@ const Resume = () => {
     return (
         <div>
             <div className='scroll-lock'>
-            <Nav />
             <div className='resume-frame' >
 
                 <iframe

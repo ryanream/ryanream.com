@@ -8,7 +8,9 @@ const cards = [
 		text: (
 			<span>
 				I'm a full stack web developer. Currently spending most of my time with
-				React. I have a passion for learning and a dog named Oliver!
+				React. I have a passion for learning and a dog named Oliver! I've had a lot 
+				of fun designing and builing this site. I'm adding new features as fast as I
+				can learn them!
 			</span>
 		),
 	},
@@ -24,8 +26,8 @@ const cards = [
 				<p></p>
 				As I add features {'&'} functionality to this page, I'll include some
 				past projects from other courses as content. If you'd like to see those
-				now, check out my Github in the drop down menu {'(top right)'}. I'm
-				updating this page daily, come back often to see it transform!
+				now, check out my Github in the drop down menu {'(top right)'}. This page
+				is updated constantly, come back often to see it transform!
 			</span>
 		),
 	},
@@ -36,12 +38,12 @@ const cards = [
 		text: (
 			<span>
 				Since deciding to leave a career in sales, I've learned several new
-				languages. I brushed up on HTML, CSS, and learned JavaScript, NodeJS,
-				Express, jQuery.
+				languages. After brushing up on HTML and CSS, I dove into JavaScript, NodeJS,
+				Express, jQuery, etc...
 				<p></p>
 				I've worked with MongoDB in several projects, along with Git and often
 				deployed web-apps to Heroku. Everything I've learned has been at home,
-				on my own time. Looking back, I wouldn't do it any other way!
+				on my own time, through determination and often trial and error. Looking back, I wouldn't do it any other way!
 			</span>
 		),
 	},
@@ -51,7 +53,7 @@ const cards = [
 		title: ` React, Hooks, Redux `,
 		text: (
 			<span>
-				I'm loving React with Hooks. Learning Redux as well, but recently I've
+				I'm loving React with Hooks. Using some Redux as well, but recently I've
 				been more focused on functional components and the simplicity of using
 				Hooks to manage state.
 			</span>

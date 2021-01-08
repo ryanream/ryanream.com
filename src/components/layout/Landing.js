@@ -1,11 +1,13 @@
+// THIS COMPONENT HAS BEEN CUT. TEST AGAIN BEFORE DELETION
+
 import React from 'react';
-import Nav from '../layout/Nav';
-import Headline from '../layout/Headline';
+// import Nav from './Nav';
+import Headline from './Headline';
 
 const Landing = () => {
   return (
     <div className='landing'>
-      <Nav />
+      {/* <Nav /> */}
       <Headline />
     </div>
   );

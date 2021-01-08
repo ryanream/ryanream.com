@@ -3,6 +3,9 @@ import FadeIn from 'react-fade-in';
 
 const Headline = () => {
 	return (
+
+		<div className='landing'>
+    
 		<div className='headline-container'>
 			<FadeIn className='headline1' delay='750' transitionDuration='2000'>
 				&nbsp;Own &nbsp;Your
@@ -11,6 +14,7 @@ const Headline = () => {
 				&nbsp;Domain
 			</FadeIn>
 		</div>
+    </div>
 	);
 };
 

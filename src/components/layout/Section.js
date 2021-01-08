@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card from '../layout/Card';
+import Card from './Card';
 import Fade from 'react-reveal/Fade';
 import { cards } from '../state/CardData';
 import { ReactComponent as Arrow } from '../../assets/icons/east-arrow.svg';
